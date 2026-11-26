@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SleekSites | High-Converting Websites &amp; Web Apps by Saviour Gbordzor</title>
+  <meta name="description" content="SleekSites by Saviour Gbordzor builds high-converting websites and web apps for businesses in Ho, Volta Region and nationwide Ghana. Custom booking workflows, interactive catalogs, WhatsApp & Mobile Money checkout." />
+  <meta name="theme-color" content="#070B14" />
+  <link rel="icon" type="image/png" href="images/logo-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    document.documentElement.classList.add('js');
+    try {
+      var storedTheme = localStorage.getItem('sg-theme');
+      if (storedTheme === 'light' || storedTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', storedTheme);
+      }
+    } catch (e) {}
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="SleekSites by Saviour Gbordzor — back to top">
+        <img class="brand-logo-icon" src="images/logo-icon.png" alt="" width="36" height="36" />
+        <span class="brand-wordmark-wrap">
+          <img class="brand-logo-wordmark" src="images/logo-wordmark.png" alt="SleekSites" />
+        </span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" title="Toggle light / dark theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#packages">Packages</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Start a Project <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-three" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="pill"><span class="pulse-dot"></span> Available for Projects in Ho &amp; Nationwide</span>
+
+          <h1>I Build <span class="gradient-text">High-Converting</span> Websites &amp; Web Apps That Bring Businesses More Clients.</h1>
+
+          <p class="hero-sub">From custom booking workflows and interactive catalogs to automated WhatsApp &amp; Mobile Money checkout, I design fast, modern web experiences built for how businesses in Ghana actually sell.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">Explore Live Work <span class="btn-arrow" aria-hidden="true">↗</span></a>
+            <a class="btn btn-outline" href="https://wa.me/233246625602?text=Hello%20SleekSites%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20a%20website%20project." target="_blank" rel="noopener noreferrer">
+              <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.5 2 2 6.49 2 12.02c0 1.77.46 3.5 1.34 5.02L2 22l5.1-1.34A9.94 9.94 0 0 0 12.04 22C17.57 22 22 17.51 22 12.02 22 6.49 17.57 2 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.03.79.81-2.95-.2-.31a8.13 8.13 0 0 1-1.25-4.33c0-4.5 3.67-8.16 8.18-8.16 4.5 0 8.15 3.66 8.15 8.16 0 4.5-3.65 8.16-8.18 8.16Zm4.48-6.1c-.24-.12-1.44-.71-1.66-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.19-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.015-.37.105-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.47-.39-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.83-.84 2.02s.86 2.34.98 2.5c.12.16 1.7 2.59 4.11 3.63.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+              Request a Quote on WhatsApp
+            </a>
+          </div>
+
+          <div class="metrics" aria-label="Key numbers">
+            <div class="metric"><strong>14</strong><span>Live Web Projects</span></div>
+            <div class="metric"><strong>48-Hour</strong><span>Rapid Delivery</span></div>
+            <div class="metric"><strong>100%</strong><span>Mobile &amp; WhatsApp Ready</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-window">
+            <div class="browser-bar">
+              <span class="dots"><i></i><i></i><i></i></span>
+              <span class="browser-url">saviourgbordzor-tech.github.io / live-projects</span>
+              <span class="browser-arrow">↗</span>
+            </div>
+            <div class="hero-screen">
+              <div class="mock-nav"><span class="mock-logo">MY PLACE<span>.</span></span><span class="mock-links">Rooms&nbsp;&nbsp; About&nbsp;&nbsp; Contact</span><span class="mock-book">Book Now</span></div>
+              <div class="mock-hero">
+                <span class="mock-kicker">HO · VOLTA REGION</span>
+                <span class="mock-title">Stay well.<br />Book instantly.</span>
+                <span class="mock-line"></span>
+                <span class="mock-line short"></span>
+                <span class="mock-cta">Reserve on WhatsApp →</span>
+              </div>
+              <div class="mock-cards">
+                <div class="mock-card"><span class="mock-thumb"></span><span class="mock-line"></span><span class="mock-line short"></span></div>
+                <div class="mock-card"><span class="mock-thumb alt"></span><span class="mock-line"></span><span class="mock-line short"></span></div>
+                <div class="mock-card"><span class="mock-thumb warm"></span><span class="mock-line"></span><span class="mock-line short"></span></div>
+              </div>
+            </div>
+          </div>
+          <span class="float-chip chip-one"><span class="chip-dot"></span> Live preview</span>
+          <span class="float-chip chip-two">⚡ Fast 3G performance</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Selected Work <span class="eyebrow-line"></span></span>
+          <h2>Live projects built to turn <span class="gradient-text">visitors into clients.</span></h2>
+          <p>Real websites for real businesses — each one engineered around bookings, catalogs, and conversations that close.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter projects by category">
+          <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">All Projects <span>(14)</span></button>
+          <button class="filter-btn" type="button" data-filter="hospitality" aria-pressed="false">Hospitality &amp; Health</button>
+          <button class="filter-btn" type="button" data-filter="fitness" aria-pressed="false">Fitness &amp; Wellness</button>
+          <button class="filter-btn" type="button" data-filter="salons" aria-pressed="false">Salons &amp; Grooming</button>
+          <button class="filter-btn" type="button" data-filter="food" aria-pressed="false">Food &amp; Bakeries</button>
+          <button class="filter-btn" type="button" data-filter="retail" aria-pressed="false">Retail &amp; Tech</button>
+        </div>
+        <p class="filter-status" id="filterStatus" aria-live="polite">Showing all 14 projects</p>
+
+        <div class="project-grid" id="projectGrid">
+          <!-- 1 -->
+          <article class="project-card" data-category="hospitality">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/my-place-guesthouse/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="hospitality">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of MY Place Guest House Ho" data-src="https://saviourgbordzor-tech.github.io/my-place-guesthouse/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Hospitality &amp; Health</span>
+              <h3>MY Place Guest House Ho</h3>
+              <ul class="feature-list">
+                <li>Real-Time Nightly Stay Cost Estimator</li>
+                <li>Boutique Room Showcase</li>
+                <li>Instant WhatsApp Room Reservations</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/my-place-guesthouse/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="project-card" data-category="hospitality">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/specialist-dental/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="health">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Specialist Dental & Implant Center" data-src="https://saviourgbordzor-tech.github.io/specialist-dental/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Hospitality &amp; Health</span>
+              <h3>Specialist Dental &amp; Implant Center</h3>
+              <ul class="feature-list">
+                <li>Filterable Treatment &amp; GHS Fee Guide</li>
+                <li>Same-Day Emergency Triage Bar</li>
+                <li>Direct WhatsApp Appointment Booking</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/specialist-dental/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="project-card" data-category="salons">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/belnad-spa/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="spa">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Belnad Health Spa & Beauty Klinik" data-src="https://saviourgbordzor-tech.github.io/belnad-spa/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Salons &amp; Grooming</span>
+              <h3>Belnad Health Spa &amp; Beauty Klinik</h3>
+              <ul class="feature-list">
+                <li>Interactive Before &amp; After Transformation Sliders</li>
+                <li>Categorized Treatment Menu</li>
+                <li>1-Tap WhatsApp Booking</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/belnad-spa/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="project-card" data-category="salons">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/glow-studio-OC-new/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="luxury">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Glow Studio Luxury Salon" data-src="https://saviourgbordzor-tech.github.io/glow-studio-OC-new/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Salons &amp; Grooming</span>
+              <h3>Glow Studio Luxury Salon</h3>
+              <ul class="feature-list">
+                <li>Editorial Luxury Hero Design</li>
+                <li>Categorized Service &amp; Price Menu</li>
+                <li>Instant WhatsApp Concierge</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/glow-studio-OC-new/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 5 -->
+          <article class="project-card" data-category="salons">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/Elias-Haircuts-demo/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="barber">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Elias Haircuts & Grooming" data-src="https://saviourgbordzor-tech.github.io/Elias-Haircuts-demo/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Salons &amp; Grooming</span>
+              <h3>Elias Haircuts &amp; Grooming</h3>
+              <ul class="feature-list">
+                <li>Barbershop Slot &amp; Service Booking</li>
+                <li>Fast 3G Mobile Performance</li>
+                <li>Direct WhatsApp Scheduling</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/Elias-Haircuts-demo/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 6 -->
+          <article class="project-card" data-category="salons">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/scissors-grooming-demo/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="groom">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Scissors Grooming" data-src="https://saviourgbordzor-tech.github.io/scissors-grooming-demo/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Salons &amp; Grooming</span>
+              <h3>Scissors Grooming</h3>
+              <ul class="feature-list">
+                <li>Modern Grooming Service Grid</li>
+                <li>Mobile-Responsive Layout</li>
+                <li>Quick Appointment Flow</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/scissors-grooming-demo/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 7 -->
+          <article class="project-card" data-category="food">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/Cakeshop-template/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="bakery">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Msrich Cakes & Pastries" data-src="https://saviourgbordzor-tech.github.io/Cakeshop-template/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Food &amp; Bakeries</span>
+              <h3>Msrich Cakes &amp; Pastries</h3>
+              <ul class="feature-list">
+                <li>Real-Time Custom Cake Configurator</li>
+                <li>Itemized WhatsApp Receipt Generator</li>
+                <li>Dual Dark/Light Theme</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/Cakeshop-template/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 8 -->
+          <article class="project-card" data-category="food">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/Klassic-bites/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="cafe">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Klassic Bites Cafe & Catering" data-src="https://saviourgbordzor-tech.github.io/Klassic-bites/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Food &amp; Bakeries</span>
+              <h3>Klassic Bites Cafe &amp; Catering</h3>
+              <ul class="feature-list">
+                <li>Automated 48-Hour Notice Date Validation</li>
+                <li>Custom Event Order Builder</li>
+                <li>Live Open/Closed Ho Status</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/Klassic-bites/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 9 -->
+          <article class="project-card" data-category="retail">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/nationwide-computers/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="tech">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Nationwide Computers" data-src="https://saviourgbordzor-tech.github.io/nationwide-computers/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Retail &amp; Tech</span>
+              <h3>Nationwide Computers</h3>
+              <ul class="feature-list">
+                <li>Searchable Product Catalogue</li>
+                <li>Brand &amp; Category Filters</li>
+                <li>Instant WhatsApp Product Quotes</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/nationwide-computers/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 10 -->
+          <article class="project-card" data-category="retail">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/Shopping-Website-/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="commerce">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Modern E-Commerce Store" data-src="https://saviourgbordzor-tech.github.io/Shopping-Website-/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Retail &amp; Tech</span>
+              <h3>Modern E-Commerce Store</h3>
+              <ul class="feature-list">
+                <li>Interactive Shopping Cart &amp; Totals</li>
+                <li>Product Filtering</li>
+                <li>Mobile-First Checkout Flow</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/Shopping-Website-/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 11 -->
+          <article class="project-card" data-category="retail">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/SG-demo-2/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="concept">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of SG Concept Showcase" data-src="https://saviourgbordzor-tech.github.io/SG-demo-2/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Retail &amp; Tech</span>
+              <h3>SG Concept Showcase</h3>
+              <ul class="feature-list">
+                <li>Modern Interactive UI Architecture</li>
+                <li>Responsive Grid Layout</li>
+                <li>Fast Static Deployment</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/SG-demo-2/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 12 -->
+          <article class="project-card" data-category="food">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/estate-kitchen/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="cafe">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Estate Kitchen" data-src="https://saviourgbordzor-tech.github.io/estate-kitchen/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Food &amp; Bakeries</span>
+              <h3>Estate Kitchen</h3>
+              <ul class="feature-list">
+                <li>Filterable Food Menu &amp; Live Order Bag</li>
+                <li>Delivery/Pickup/Dine-In Selector</li>
+                <li>Direct WhatsApp Order &amp; Catering Booking</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/estate-kitchen/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 13 -->
+          <article class="project-card" data-category="hospitality">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/dominion-care-pharmacy/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="health">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of Dominion Care Pharmacy" data-src="https://saviourgbordzor-tech.github.io/dominion-care-pharmacy/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Hospitality &amp; Health</span>
+              <h3>Dominion Care Pharmacy</h3>
+              <ul class="feature-list">
+                <li>Interactive Prescription &amp; Medication Request Tool</li>
+                <li>Filterable OTC Health Categories</li>
+                <li>Same-Day Ho Delivery &amp; Pickup Flow</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/dominion-care-pharmacy/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 14 -->
+          <article class="project-card" data-category="fitness">
+            <div class="browser-frame">
+              <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">saviourgbordzor-tech.github.io/ts-fitness-gym/</span><span class="browser-arrow">↗</span></div>
+              <div class="preview-shell" data-preview data-tone="concept">
+                <div class="preview-backdrop" aria-hidden="true"></div>
+                <div class="preview-loader" aria-hidden="true"><span class="loader-ring"></span> Loading live preview</div>
+                <iframe class="preview-frame" title="Live mini preview of TS Fitness Gym" data-src="https://saviourgbordzor-tech.github.io/ts-fitness-gym/" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="industry-badge">Fitness &amp; Wellness</span>
+              <h3>TS Fitness Gym</h3>
+              <ul class="feature-list">
+                <li>Interactive Weekly Class Timetable</li>
+                <li>Transparent GHS Membership Tiers</li>
+                <li>Automated WhatsApp Trial &amp; Plan Registration</li>
+              </ul>
+              <a class="btn btn-card" href="https://saviourgbordzor-tech.github.io/ts-fitness-gym/" target="_blank" rel="noopener noreferrer">View Live Site <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-head centered">
+          <span class="eyebrow">How It Works <span class="eyebrow-line"></span></span>
+          <h2>From first idea to live site in <span class="gradient-text">three clear steps.</span></h2>
+          <p>No guesswork, no long silences. Just a focused build process designed around your business goals.</p>
+        </div>
+
+        <div class="steps" data-reveal-group>
+          <div class="step reveal-up">
+            <span class="step-number">01.</span>
+            <h3>Custom Preview</h3>
+            <p>I study your business and build a tailored preview so you can see the direction before we commit.</p>
+          </div>
+          <div class="step reveal-up">
+            <span class="step-number">02.</span>
+            <h3>Tailor to Your Brand</h3>
+            <p>We refine copy, colours, booking flows and interactive features until everything fits how you work.</p>
+          </div>
+          <div class="step reveal-up">
+            <span class="step-number">03.</span>
+            <h3>Launch &amp; Go Live</h3>
+            <p>Your site is tested on mobile and WhatsApp, optimised for speed, then published for the world to see.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="section packages-section" id="packages">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Scope-Based Packages <span class="eyebrow-line"></span></span>
+          <h2>Pricing shaped by <span class="gradient-text">your project scope.</span></h2>
+          <p>Every build is quoted individually. Choose the tier that sounds closest — we'll shape an exact proposal around the features your business actually needs.</p>
+        </div>
+
+        <div class="package-grid" data-reveal-group>
+          <article class="package-card reveal-up">
+            <span class="card-shimmer" aria-hidden="true"></span>
+            <div class="package-top">
+              <span class="package-tag">Essential</span>
+              <span class="package-icon" aria-hidden="true">◇</span>
+            </div>
+            <h3>Starter Business Site</h3>
+            <p class="package-for">For local shops, barbers, salons &amp; personal brands.</p>
+            <ul class="package-list">
+              <li>Mobile-first responsive design</li>
+              <li>Service/price showcase</li>
+              <li>Google Maps location</li>
+              <li>Direct WhatsApp button</li>
+            </ul>
+            <button class="btn btn-package" type="button" data-tier="Starter Business Site">Request Custom Quote <span aria-hidden="true">↗</span></button>
+          </article>
+
+          <article class="package-card featured reveal-up">
+            <span class="card-shimmer" aria-hidden="true"></span>
+            <div class="package-top">
+              <span class="package-tag brand">Most Popular</span>
+              <span class="package-icon" aria-hidden="true">✦</span>
+            </div>
+            <h3>Growth &amp; Booking Website</h3>
+            <p class="package-for">For clinics, spas, guest houses &amp; bakeries.</p>
+            <ul class="package-list">
+              <li>Custom interactive calculators/configurators</li>
+              <li>Filterable menus</li>
+              <li>Automated WhatsApp booking receipts</li>
+              <li>Google visibility setup</li>
+            </ul>
+            <button class="btn btn-primary btn-package" type="button" data-tier="Growth & Booking Website">Request Custom Quote <span aria-hidden="true">↗</span></button>
+          </article>
+
+          <article class="package-card reveal-up">
+            <span class="card-shimmer" aria-hidden="true"></span>
+            <div class="package-top">
+              <span class="package-tag cyan">Full-Stack &amp; Scale</span>
+              <span class="package-icon" aria-hidden="true">⬡</span>
+            </div>
+            <h3>Custom Web App &amp; E-Commerce</h3>
+            <p class="package-for">For hotels, supermarkets &amp; custom platforms.</p>
+            <ul class="package-list">
+              <li>Full product catalogs</li>
+              <li>Database backend</li>
+              <li>Admin dashboards</li>
+              <li>Paystack / Mobile Money payment integration</li>
+            </ul>
+            <button class="btn btn-package" type="button" data-tier="Custom Web App & E-Commerce">Discuss Project Scope <span aria-hidden="true">↗</span></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid" data-reveal-group>
+        <div class="avatar-card reveal-up">
+          <!-- Swap this studio mark for your headshot later: <img class="about-photo" src="headshot.jpg" alt="Saviour Gbordzor" /> -->
+          <img class="about-logo" src="images/logo-icon.png" alt="SleekSites studio mark" />
+          <span class="avatar-caption">SleekSites Studio Mark</span>
+        </div>
+
+        <div class="about-copy reveal-up">
+          <span class="about-badge"><span class="pulse-dot"></span> Based in Ho, Volta Region</span>
+          <h2>About Me</h2>
+          <p class="about-bio">Hi, I'm Saviour Gbordzor, founder of SleekSites—a Web Designer &amp; Digital Builder based in Ho, Volta Region, currently pursuing Computer Science at Ho Technical University (HTU). I specialize in building fast, mobile-first websites and interactive web applications that help local businesses—from guest houses and clinics to salons, bakeries, and retail stores—look credible online and turn visitors into paying WhatsApp customers.</p>
+          <div class="credential-pills">
+            <span class="credential-pill">Founder, SleekSites</span>
+            <span class="credential-pill">BSc / HND Computer Science — HTU (Level 200)</span>
+            <span class="credential-pill">Ho, Volta Region</span>
+            <span class="credential-pill">14+ Live Client Concepts</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid" data-reveal-group>
+        <div class="contact-copy reveal-up">
+          <span class="eyebrow">Start a Project <span class="eyebrow-line"></span></span>
+          <h2>Have a business in Ho that needs to <span class="gradient-text">sell online?</span></h2>
+          <p>Tell me a little about what you do and what you want your website to achieve. Your answers go straight to my WhatsApp, so we can start talking right away.</p>
+          <div class="contact-points">
+            <span><b>01</b> Custom reply within 24 hours</span>
+            <span><b>02</b> Tailored scope — no fixed price list</span>
+            <span><b>03</b> Built for Ghanaian customers</span>
+          </div>
+          <a class="contact-direct" href="https://wa.me/233246625602" target="_blank" rel="noopener noreferrer">Or just say hello on WhatsApp ↗</a>
+        </div>
+
+        <form class="inquiry-form reveal-up" id="inquiryForm">
+          <div class="form-head">
+            <h3>Project Inquiry</h3>
+            <span>Replies on WhatsApp</span>
+          </div>
+
+          <label for="yourName">Your Name</label>
+          <input id="yourName" name="yourName" type="text" placeholder="e.g. Ama Mensah" autocomplete="name" required />
+
+          <label for="businessName">Business Name</label>
+          <input id="businessName" name="businessName" type="text" placeholder="e.g. Klassic Bites" autocomplete="organization" required />
+
+          <label for="packageTier">Select Package Tier</label>
+          <div class="select-wrap">
+            <select id="packageTier" name="packageTier" required>
+              <option value="" disabled selected>Choose the closest fit</option>
+              <option value="Starter Business Site">Starter Business Site</option>
+              <option value="Growth & Booking Website">Growth &amp; Booking Website</option>
+              <option value="Custom Web App & E-Commerce">Custom Web App &amp; E-Commerce</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+          </div>
+
+          <label for="projectDetails">Project Details</label>
+          <textarea id="projectDetails" name="projectDetails" rows="5" placeholder="What does your business do? What features do you need — bookings, catalog, payments, WhatsApp? Anything else I should know?" required></textarea>
+
+          <button class="btn btn-primary btn-submit" type="submit">
+            <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.5 2 2 6.49 2 12.02c0 1.77.46 3.5 1.34 5.02L2 22l5.1-1.34A9.94 9.94 0 0 0 12.04 22C17.57 22 22 17.51 22 12.02 22 6.49 17.57 2 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.03.79.81-2.95-.2-.31a8.13 8.13 0 0 1-1.25-4.33c0-4.5 3.67-8.16 8.18-8.16 4.5 0 8.15 3.66 8.15 8.16 0 4.5-3.65 8.16-8.18 8.16Zm4.48-6.1c-.24-.12-1.44-.71-1.66-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.19-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.015-.37.105-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.47-.39-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.83-.84 2.02s.86 2.34.98 2.5c.12.16 1.7 2.59 4.11 3.63.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+            Send Inquiry on WhatsApp
+          </button>
+          <p class="form-note">Opens WhatsApp with your details ready to send. No spam, no forms lost in an inbox.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#home" aria-label="SleekSites — back to top">
+        <img class="footer-logo-icon" src="images/logo-icon.png" alt="" width="30" height="30" />
+        <span class="footer-wordmark-wrap">
+          <img class="footer-logo-wordmark" src="images/logo-wordmark.png" alt="SleekSites" />
+        </span>
+      </a>
+      <p>© 2026 SleekSites • Built by Saviour Gbordzor • Ho, Volta Region, Ghana</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/233246625602?text=Hello%20SleekSites%2C%20I%27d%20like%20to%20talk%20about%20a%20website%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat with SleekSites on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.5 2 2 6.49 2 12.02c0 1.77.46 3.5 1.34 5.02L2 22l5.1-1.34A9.94 9.94 0 0 0 12.04 22C17.57 22 22 17.51 22 12.02 22 6.49 17.57 2 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.03.79.81-2.95-.2-.31a8.13 8.13 0 0 1-1.25-4.33c0-4.5 3.67-8.16 8.18-8.16 4.5 0 8.15 3.66 8.15 8.16 0 4.5-3.65 8.16-8.18 8.16Zm4.48-6.1c-.24-.12-1.44-.71-1.66-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.19-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.015-.37.105-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.47-.39-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.83-.84 2.02s.86 2.34.98 2.5c.12.16 1.7 2.59 4.11 3.63.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+    <span class="wa-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
